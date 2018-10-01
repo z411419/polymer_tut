@@ -1,0 +1,39 @@
+[debug] [2018-10-01T12:14:01.013Z] ----------------------------------------------------------------------
+[debug] [2018-10-01T12:14:01.015Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tom\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-01T12:14:01.015Z] CLI Version:   4.2.1
+[debug] [2018-10-01T12:14:01.015Z] Platform:      win32
+[debug] [2018-10-01T12:14:01.015Z] Node Version:  v8.11.3
+[debug] [2018-10-01T12:14:01.016Z] Time:          Mon Oct 01 2018 14:14:01 GMT+0200 (Romance Summer Time)
+[debug] [2018-10-01T12:14:01.016Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-01T12:14:01.026Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-01T12:14:01.027Z] > authorizing via signed-in user
+[debug] [2018-10-01T12:14:01.029Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/polymer-1d5f3  
+ 
+[debug] [2018-10-01T12:14:01.667Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-01T12:14:01.668Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/polymer-1d5f3  
+ 
+[debug] [2018-10-01T12:14:02.752Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Tom\Documents\Polymer'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-10-01T12:14:03.486Z] Fetching environment
+[debug] [2018-10-01T12:14:03.488Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/112470185112:getServerAppConfig  
+ 
+[debug] [2018-10-01T12:14:03.488Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/112470185112/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-01T12:14:03.877Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-01T12:14:03.877Z] Starting @google-cloud/functions-emulator
+[debug] [2018-10-01T12:14:03.944Z] <<< HTTP RESPONSE 200
+[info] i  hosting[polymer-1d5f3]: Serving hosting files from: public
+[info] +  hosting[polymer-1d5f3]: Local server: http://localhost:5000
+[debug] [2018-10-01T12:14:05.901Z] Parsing function triggers
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-10-01T12:14:06.061Z] Error during trigger parsing:  Error parsing triggers: Cannot find module 'C:\Users\Tom\Documents\Polymer\functions'
+
+Try running "npm install" in your functions directory before deploying.
+[warn] !  functions: Error from emulator. Error parsing triggers: Cannot find module 'C:\Users\Tom\Documents\Polymer\functions'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2018-10-01T12:14:06.063Z] 
