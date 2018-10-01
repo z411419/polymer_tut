@@ -37,3 +37,27 @@ Try running "npm install" in your functions directory before deploying.
 
 Try running "npm install" in your functions directory before deploying.
 [debug] [2018-10-01T12:14:06.063Z] 
+[debug] [2018-10-01T12:17:16.998Z] ----------------------------------------------------------------------
+[debug] [2018-10-01T12:17:17.007Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tom\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-01T12:17:17.008Z] CLI Version:   4.2.1
+[debug] [2018-10-01T12:17:17.008Z] Platform:      win32
+[debug] [2018-10-01T12:17:17.008Z] Node Version:  v8.11.3
+[debug] [2018-10-01T12:17:17.009Z] Time:          Mon Oct 01 2018 14:17:17 GMT+0200 (Romance Summer Time)
+[debug] [2018-10-01T12:17:17.009Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-01T12:17:17.047Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-01T12:17:17.049Z] > authorizing via signed-in user
+[debug] [2018-10-01T12:17:17.059Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/polymer-1d5f3  
+ 
+[debug] [2018-10-01T12:17:17.831Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-01T12:17:17.832Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/polymer-1d5f3  
+ 
+[debug] [2018-10-01T12:17:19.091Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Tom\Documents\Polymer'...
+[info] 
+[debug] [2018-10-01T12:17:19.108Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/112470185112/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-01T12:17:19.600Z] <<< HTTP RESPONSE 200
+[info] i  hosting[polymer-1d5f3]: Serving hosting files from: public
+[info] +  hosting[polymer-1d5f3]: Local server: http://localhost:5000
